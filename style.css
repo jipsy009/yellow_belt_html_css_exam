@@ -1,0 +1,264 @@
+*{
+	font-family: sans-serif;
+}
+#container{
+	width: 970px;
+	height: 600px;
+	margin: 0 auto;
+	background: linear-gradient(to bottom, #0066cc, #003366);
+}
+#header{
+	width: 968px;
+	height: 85px;
+	background-color: #e8e8e8;
+	border: 1px solid silver;
+	border-bottom: 1px solid white;
+}
+	img{
+		position: relative;
+		left: 10px;
+		top: 5px;
+	}
+	#corporate{
+		position: relative;
+		width: 85px;
+		height: 18px;
+		left: 410px;
+		bottom: 12px;
+		text-align: left;
+		background: linear-gradient(to bottom, #336699, #003366);
+		color: white;
+		border: 1px solid gray;
+		border-top-left-radius: 5px;
+		border-bottom-left-radius: 5px;
+	}
+	#search_box{
+		position: relative;
+		width: 200px;
+		left: 455px;
+		bottom: 12px;
+	}
+	#search_icon{
+		position: relative;
+		left: 460px;
+		top: 18px;
+		vertical-align: top;
+	}
+	#navigation ul{
+		margin: 0;
+		padding: 0;
+	}
+	#navigation ul li{
+		display: inline;
+		position: relative;
+		font-size: 13px;
+		list-style-type: none;
+		margin left: 10px;
+		margin-right: 10px;
+		padding-bottom: 7px;
+		left: 410px;
+		top: 5px
+	}
+	#navigation li{
+		border-right: 1px solid silver;
+		padding-right: 12px;
+	}
+	#navigation li:last-child{
+		border-right: none;
+	}
+#left_content{
+	display: inline-block;
+	position: relative;
+	width: 220px;
+	height: 235px;
+	vertical-align: top;
+	border: 1px solid white;
+	background-color: #e8e8e8;
+	margin: 20px;
+	margin-right: 0px;
+}
+	#left_content_header{
+		position: relative;
+		width: 220px;
+		height: 47px;
+		background: linear-gradient(to bottom, #003366, #336699);
+		color: white;
+		bottom: 21px;
+		text-align: center;
+	}
+		#left_content_header h4{
+			position: relative;
+			top: 8px;
+		}
+		#left_content_header p{
+			position: relative;
+			bottom: 12px;
+			font-size: 11px;
+		}
+	#left_content label{
+		position: relative;
+		left: 20px;
+		bottom: 10px;
+		font-size: 15px
+	}
+	#left_content input{
+		display: block;
+		position: relative;
+		left: 20px;
+		bottom: 5px;
+		border-radius: 5px;
+	}
+	#name_box{
+		width: 150px;
+		height: 18px;
+	}
+	#left_content a{
+		display: block;
+		position: relative;
+		text-decoration: none;
+		font-size: 10px;
+		left: 20px;
+	}
+	#password_label{
+		position: relative;
+		left: 20px;
+		top: 5px;
+		font-size: 15px
+	}
+	#password_box{
+		width: 150px;
+		height: 18px;
+		top: 10px;
+	}
+	#password_link{
+		top: 15px;
+	}
+	#sign_in{
+		display: inline-block;
+		position: relative;
+		width: 70px;
+		background: linear-gradient(to bottom, #404040, silver);
+		color: white;
+		border-radius: 5px;
+		left: 20px;
+		top: 15px;
+	}
+	#register{
+		display: inline-block;
+		position: relative;
+		font-size: 12px;
+		left: 25px;
+		top: 18px;
+		color: blue;
+	}
+#main_pic{
+	display: inline-block;
+	position: relative;
+}
+#new_customer{
+	display: inline-block;
+	position: relative;
+	right: 708px;
+	bottom: 8px;
+	width: 223px;
+	height: 35px;
+	background: linear-gradient(to bottom, #003366, #336699);
+	color: white;
+	border: 1px solid white;
+	font-size: 16px;
+}
+#news{
+	display: inline-block;
+	position: relative;
+	width: 968px;
+	height: 30px;
+	top: 5px;
+	background-color: #e8e8e8;
+	border: 1px solid darkgray;
+}
+	#news p{
+		position: relative;
+		bottom: 8px;
+		left: 20px;
+		font-size: 15px;
+	}
+	#news a{
+		position: relative;
+		font-size: 15px;
+		text-decoration: none;
+		left: 120px;
+		bottom: 40px;
+	}
+#boxes{
+	display: inline-block;
+	position: relative;
+	left: 20px;
+	bottom: 20px;
+}
+	.box{
+		display: inline-block;
+		position: relative;
+		margin: 5px;
+		width: 290px;
+		height: 100px;
+		border: 3px solid silver;
+		background-color: #e8e8e8;
+		overflow: hidden;
+		word-wrap: break-word;
+	}
+	.box img{
+		display: inline-block;
+		position: relative;
+		top: 10px;
+	}
+	.box p{
+		position: relative;
+		left: 100px;
+		bottom: 88px;
+		font-size: 14px;
+	}
+	.box a{
+		position: relative;
+		font-size: 12px;
+		text-decoration: none;
+	}
+#bottom_content{
+	display: inline-block;
+	position: relative;
+	width: 968px;
+	height: 30px;
+	bottom: 10px;
+	background-color: #e8e8e8;
+	border: 1px solid darkgray;
+}
+	#bottom_content ul{
+		margin: 0;
+		padding: 0;
+	}
+	#bottom_content ul li{
+		display: inline;
+		position: relative;
+		font-size: 13px;
+		list-style-type: none;
+		margin left: 10px;
+		margin-right: 10px;
+		left: 20px;
+		top: 5px;
+	}
+	#bottom_content li{
+		border-right: 1px solid silver;
+		padding-right: 12px;
+	}
+	#bottom_content li:last-child{
+		border-right: none;
+	}
+	#bottom_content p{
+		font-size: 13px;
+		position: relative;
+		text-align: right;
+		right: 10px;
+		bottom: 23px;
+	}
+
+	
+
